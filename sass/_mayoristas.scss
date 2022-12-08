@@ -1,0 +1,14 @@
+.mayoristas{
+    margin-top: 10%;
+    margin-left: 20%;
+    &__texto{
+        width: 90%;
+        margin: 10%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .mayoristas{
+        margin-top: 40%;
+    }
+}

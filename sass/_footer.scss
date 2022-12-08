@@ -1,0 +1,50 @@
+.logovoalfooter{
+    margin-bottom: 10%;
+  }
+
+  .footerdisplay{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+.newsletter{
+    width: 500px;
+}
+
+
+.textfooter{
+    width: 150px;
+    align-items: left;
+    text-align: left;
+}
+
+.listafooter{
+    padding: 0px;
+    margin-top: 20%;
+    margin: 0px;
+    align-items: left;
+    text-align: left;
+}
+
+.elementosfooter{
+    margin-top: 5%;
+    padding: 5%;
+    align-items: left;
+    text-align: left;
+}
+.footertamanho{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+@media screen and (max-width: 600px){
+    .footertamanho{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+    .footerdisplay{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}

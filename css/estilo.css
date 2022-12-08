@@ -1,0 +1,252 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.navbar {
+  position: relative;
+  width: auto; }
+
+.instagram {
+  width: 50px;
+  margin-left: 20%;
+  margin-top: 20%; }
+
+.cajafooter {
+  display: grid;
+  grid-template-columns: auto auto auto; }
+
+body {
+  background-color: #f8f5f5; }
+
+.colormain {
+  background-color: #faf6f6; }
+
+.footertamanho {
+  display: grid; }
+
+.search {
+  width: 550px; }
+
+.cajaremerasvoal {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  margin: 20px;
+  width: auto; }
+
+.colormain1 {
+  background-color: white; }
+
+.cardgrid {
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: grid;
+  grid-template-columns: 550px 550px 550px; }
+
+.cardimg {
+  position: relative;
+  width: 50%; }
+
+.cardimg button {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: 5px;
+  cursor: pointer;
+  border-radius: 5px; }
+
+.cardimg .btn:hover {
+  background-color: black; }
+
+.gorraimg {
+  border-style: dotted;
+  border-width: 10px; }
+
+.pd {
+  margin-top: 10%;
+  margin-left: 30%; }
+
+.logoimg {
+  padding: 10%; }
+
+.d-flex {
+  padding: 5%; }
+
+/* Add some padding and a grey background color to containers */
+.container {
+  padding: 20px; }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial; }
+
+.price {
+  color: grey;
+  font-size: 22px; }
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px; }
+
+.card button:hover {
+  opacity: 0.7; }
+
+.titulo__remerasvoal {
+  margin-top: 10%; }
+
+@media screen and (max-width: 600px) {
+  .cajaremerasvoal {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto; }
+  .titulo__remerasvoal {
+    margin-top: 40%; } }
+
+.carrousel__contenedor {
+  position: relative; }
+
+.carrousel__anterior {
+  margin-left: 70%;
+  width: 30px;
+  height: 30px; }
+
+.carrousel__siguiente {
+  width: 30px;
+  height: 30px; }
+
+.carrousel__lista {
+  margin: 20px; }
+
+.carrousel__carrito {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 18px; }
+
+.carrousel__carrito:hover {
+  color: blue;
+  opacity: 90%; }
+
+.value {
+  font-size: 22px;
+  color: grey;
+  text-align: center; }
+
+.carrousel__elementos {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 5px;
+  text-align: center;
+  font-family: arial; }
+
+.carrousel__elementos:hover {
+  opacity: 90%; }
+
+.carrousel {
+  width: auto;
+  margin: 15px; }
+
+@media screen and (max-width: 600px) {
+  .cardgrid {
+    display: grid;
+    grid-template-columns: auto; }
+  .gridimg {
+    width: 200px; }
+  .pd {
+    margin-top: 40%; }
+  .mayoristas {
+    margin-top: 40%; }
+    .mayoristas__texto {
+      margin-top: 40%; }
+  .cardimg button {
+    position: center; } }
+
+.mayoristas {
+  margin-top: 10%;
+  margin-left: 20%; }
+  .mayoristas__texto {
+    width: 90%;
+    margin: 10%; }
+
+@media screen and (max-width: 600px) {
+  .mayoristas {
+    margin-top: 40%; } }
+
+.faq {
+  margin: 10px; }
+  .faq__titulo {
+    margin-top: 10%;
+    text-align: center; }
+
+@media screen and (max-width: 600px) {
+  .faq {
+    margin-top: 10px; }
+    .faq__titulo {
+      margin-top: 40%; } }
+
+.gorrasvoal {
+  margin-top: 10%; }
+
+@media screen and (max-width: 600px) {
+  .gorrasvoal {
+    margin-top: 40%; } }
+
+.logovoalfooter {
+  margin-bottom: 10%; }
+
+.footerdisplay {
+  display: grid;
+  grid-template-columns: auto auto auto; }
+
+.newsletter {
+  width: 500px; }
+
+.textfooter {
+  width: 150px;
+  align-items: left;
+  text-align: left; }
+
+.listafooter {
+  padding: 0px;
+  margin-top: 20%;
+  margin: 0px;
+  align-items: left;
+  text-align: left; }
+
+.elementosfooter {
+  margin-top: 5%;
+  padding: 5%;
+  align-items: left;
+  text-align: left; }
+
+.footertamanho {
+  display: grid;
+  grid-template-columns: auto auto auto; }
+
+@media screen and (max-width: 600px) {
+  .footertamanho {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto; }
+  .footerdisplay {
+    display: grid;
+    grid-template-columns: auto; } }

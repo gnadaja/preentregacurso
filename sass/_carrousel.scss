@@ -1,0 +1,57 @@
+.carrousel__contenedor{
+    position: relative;
+}
+
+.carrousel__anterior{
+    margin-left: 70%;
+    width: 30px;
+    height: 30px;
+
+}
+
+.carrousel__siguiente{
+    width: 30px;
+    height: 30px;
+
+}
+
+.carrousel__lista{
+    margin: 20px;
+}
+
+.carrousel__carrito{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 18px;
+}
+.carrousel__carrito:hover{
+    color: blue;
+    opacity: 90%;
+}
+.value{
+    font-size: 22px;
+    color: grey;
+    text-align: center;
+}
+
+.carrousel__elementos{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    text-align: center;
+    font-family: arial;
+}
+
+.carrousel__elementos:hover{
+    opacity: 90%;
+}
+
+.carrousel{
+    width: auto;
+    margin: 15px;
+}

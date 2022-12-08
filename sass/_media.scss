@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px){
+    .cardgrid{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .gridimg{
+        width: 200px;
+    }
+    .pd{
+        margin-top: 40%;
+    }
+    .mayoristas{
+        margin-top: 40%;
+        &__texto{
+            margin-top: 40%;
+        }
+    }
+    .cardimg button{
+        position: center;
+    }
+}

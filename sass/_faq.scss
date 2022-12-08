@@ -1,0 +1,16 @@
+.faq{
+    margin: 10px;
+    &__titulo{
+        margin-top: 10%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .faq{
+        margin-top: 10px;
+        &__titulo{
+            margin-top: 40%;
+        }
+    }
+}
